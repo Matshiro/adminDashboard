@@ -1,0 +1,21 @@
+button {
+  color: aliceblue;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  background-color: transparent;
+  border-radius: 100px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.userAvatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100px;
+}
+
+.asideButtons:nth-child(7) {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=styles.css.map */

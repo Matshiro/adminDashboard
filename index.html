@@ -5,8 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div id="searchbar">
+            <form action="#">
+                <button id="searchButton">
+                    <img src="./icons/text-box-search-outline.svg" alt="Search button">
+                </button>     
+                <input id="searchInput"type="text"></input>
+            </form>
+        </div>
+        <div id="mainUserData">
+            <img class="userAvatar" src="./images/buncake.jpg" alt="User profile image">
+            <p>Hi there,</p>
+            <h1>Pan Kejk (@buncake)</h1>
+        </div>
+        <div id="userData">
+            <button id="bellButton"></button>
+            <img class="userAvatar" src="./images/buncake.jpg" alt="User profile image">
+            <h2>Pan Kejk</h2>
+        </div>
+        <div id="taskButtons">
+            <button class="taskButton">New</button>
+            <button class="taskButton">Upload</button>
+            <button class="taskButton">Share</button>
+        </div>
+    </header>
+    <aside>
+        <div class="asideButtons">
+            <button id="squareButton">
+                <img src="./icons/rabbit-variant-outline.svg" alt="Rabbit icon">
+            </button>
+            <button id="dashboardButton">Dashboard</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/home-outline.svg" alt="Home icon">
+            </button>
+            <button class="iconButton">Home</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/account-outline.svg" alt="Account icon">
+            </button>
+            <button class="iconButton">Profile</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/message-outline.svg" alt="Message icon">
+            </button>
+            <button class="iconButton">Messages</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/history.svg" alt="History icon">
+            </button>
+            <button class="iconButton">History</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/calendar-check-outline.svg" alt="Tasks icon">
+            </button>
+            <button class="iconButton">Tasks</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/account-group-outline.svg" alt="Communities icon">
+            </button>
+            <button class="iconButton">Communities</button> 
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/cog-outline.svg" alt="Settings icon">
+            </button>
+            <button class="iconButton">Settings</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/tooltip-question-outline.svg" alt="Support icon">
+            </button>
+            <button class="iconButton">Support</button>
+        </div>
+        <div class="asideButtons">
+            <button class="iconButton">
+                <img src="./icons/shield-check-outline.svg" alt="Privacy icon">
+            </button>
+            <button class="iconButton">Privacy</button>
+        </div>
+    </aside>
 </body>
 </html>
