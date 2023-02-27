@@ -8,7 +8,6 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  top: 0;
   background-color: #E6F2FF;
 }
 
@@ -17,7 +16,7 @@ aside {
   top: 0;
   background-color: #4db9f8;
   height: 100dvh;
-  width: 20rem;
+  width: 15%;
 }
 
 .asideButtons {
@@ -83,7 +82,7 @@ header {
   background-color: #FFF;
   position: sticky;
   top: -5.5rem;
-  width: 100dvw;
+  width: 90%;
   height: 11rem;
   display: grid;
   grid-template-columns: 1fr 1fr 0.2fr 0.7fr;
@@ -105,9 +104,9 @@ header {
   align-items: center;
 }
 
-#searchButton, #searchInput {
-  height: 2rem;
-  width: 2rem;
+#searchButton {
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: transparent;
   border: 0;
   border-radius: 100px;
@@ -116,7 +115,13 @@ header {
 }
 
 #searchInput {
-  width: 50rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 50vw;
   background-color: #E6F2FF;
   margin-left: 2rem;
 }
@@ -190,8 +195,8 @@ header {
 }
 
 .taskButton {
-  height: 2rem;
-  width: 5rem;
+  height: 2.5rem;
+  width: 6.5rem;
   background-color: transparent;
   border: 0;
   border-radius: 100px;
