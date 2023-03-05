@@ -299,6 +299,9 @@ section {
   margin-bottom: 2rem;
   overflow-y: auto;
 }
+#annCardsContainer::-webkit-scrollbar {
+  width: 0px;
+}
 
 .annCard {
   padding-bottom: 0.5rem;
