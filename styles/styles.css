@@ -143,8 +143,8 @@ header {
 }
 
 #bellButton {
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: transparent;
   border: 0;
   border-radius: 100px;
@@ -180,6 +180,7 @@ header {
   grid-row: 1/1;
   font-size: 12px;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 #mainUserData > h1 {
@@ -222,14 +223,9 @@ main {
   margin: 2rem 1rem;
   font-weight: 600;
 }
-main h3 {
-  margin-left: 0.5rem;
-}
 
-section {
-  grid-column: 3/3;
-  margin: 2rem 1rem;
-  font-weight: 600;
+.titles {
+  margin-left: 0rem;
 }
 
 #mainCardsContainer {
@@ -245,6 +241,46 @@ section {
   background-color: #FFF;
   max-height: 15rem;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 2% 1fr 0.8fr;
+  grid-template-rows: 75% 25%;
+}
+
+.mainCardColor {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: #e7ba24;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.mainCardTextSpace {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  margin: 1.5rem 1rem 0rem 1rem;
+}
+
+.mainCardButtonSpace {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.mainCardButtonSpace button {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+section {
+  grid-column: 3/3;
+  margin: 2rem 2rem 2rem 1rem;
+  font-weight: 600;
 }
 
 #annCardsContainer {
@@ -252,6 +288,27 @@ section {
   height: 45%;
   background-color: #FFF;
   border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.annCard {
+  padding-bottom: 0.5rem;
+  margin: 0rem 2rem 0rem 2rem;
+  border-bottom: 0.1rem solid darkgray;
+}
+.annCard:last-child {
+  border-bottom: none;
+}
+.annCard:first-child {
+  padding-top: 0.5rem;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.annoP {
+  font-size: 11px;
 }
 
 #trendingCardsContainer {
@@ -263,5 +320,12 @@ section {
 }
 
 h3 {
-  margin-top: 0rem;
+  margin-top: 0;
+}
+
+p {
+  font-weight: 300;
+  margin-top: -1rem;
+  word-wrap: break-word;
+  text-overflow: clip;
 }/*# sourceMappingURL=styles.css.map */
